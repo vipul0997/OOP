@@ -19,12 +19,12 @@ minutes = m;
 // method to display time
 void displayTime()
 {
-cout &lt;&lt; &quot;H: &quot; &lt;&lt; hours &lt;&lt; &quot; M:&quot; &lt;&lt; minutes &lt;&lt;endl;
+cout << "H: " << hours << " M: " << minutes <<endl;
 }
 Time operator++ ()
 {
 ++minutes; // increment this object
-if(minutes &gt;= 60)
+if(minutes >= 60)
 {
 ++hours;
 minutes -= 60;
@@ -38,7 +38,7 @@ Time operator++( int )
 Time T(hours, minutes);
 // increment this object
 ++minutes;
-if(minutes &gt;= 60)
+if(minutes >= 60)
 {
 ++hours;
 minutes -= 60;
