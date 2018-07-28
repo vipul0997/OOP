@@ -97,8 +97,7 @@ if(m !=0) //Proceed if No. Of UG students is not zero
 cout<<"UG student Details :\n";
 for(i=0;i<8;i++) // To get Sem wise Age Avg
 {
-if(a[0].UG::count[i] !=0) //Checking if i+1th SEM has Students are not.If no students Count
-for that SEM is 0
+if(a[0].UG::count[i] !=0) //Checking if i+1th SEM has Students are not.If no students Count for that SEM is 0
 cout<<"Sem : "<<i+1<<"\t"<<" Age Avg :"<<"\t"<<a[0].UG::Age[i]/a[0].UG::count[i]<<endl;
 } //Since static variables are class Specific,any object can be used to access it
 for(i=0;i<n;i++)
