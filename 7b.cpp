@@ -53,7 +53,7 @@ cin>>roll;
 }
 void disp1()
 {
-disp();
+display();
 cout<<"Roll number-"<<roll<<endl;
 }
 };
