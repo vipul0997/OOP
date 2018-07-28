@@ -46,7 +46,7 @@ break;
 case 3:
 item = l.front();
 l.pop_front();
-cout<<"Element "<<item<<" deleted"<<endl;
+cout<<"Element <<"item<<" deleted"<<endl;
 break;
 case 4:
 item = l.back();
