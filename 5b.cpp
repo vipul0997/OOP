@@ -12,8 +12,8 @@ int choice, item;
 while (1)
 {
 cout<<"\n---------------------"<<endl;
-cout<<"List Implementation in Stl"<<;endl;
-cout<<"\n---------------------"<<;endl;
+cout<<"List Implementation in Stl"<<endl;
+cout<<"\n---------------------"<<endl;
 cout<<"1.Insert Element at the Front"<<endl;
 cout<<"2.Insert Element at the End"<<endl;
 cout<<"3.Delete Element at the Front"<<endl;
