@@ -77,7 +77,7 @@ cout<<"Percentage="<<perc<<endl;
 };
 int main()
 {
-marks s;// create object of marks class
+Marks s;// create object of marks class
 teacher t;// create object of teacher class
 cout<<"Enter the student details"<<endl;
 s.get3();
